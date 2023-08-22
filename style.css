@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background: rgba(0, 0, 0,  0.7) url('images.jpg') center center Fixed;
+    background-size: cover;
+    background-image: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+    background-attachment: fixed;
+    background-size:  cover ;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+.content{
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 5%;
+    color: white!important;
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom: 3%;
+    letter-spacing: 8px;
+    color: white;
+}
+.content h3{
+    font-size: 25px;
+    bottom: 5%;
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+span{
+    color: blue;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+button{
+    padding: 15px 20px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: blue;
+}
+button:hover{
+    background-color: rgb(255,10,10);
+}
+.image{
+    width:100%;
+    margin-top: 8%;
+}
+nav1:hover{
+    background-color: rgb(255,10,10);
+}
+@media screen and (max-width: 325px){
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .button{
+        margin-bottom: 5%;
+    }
+}
